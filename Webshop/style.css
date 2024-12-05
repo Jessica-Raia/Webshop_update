@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(245, 224, 121);
+    color: rgb(244, 114, 14);
+}
+
+.home-img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu-img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+  .back-to-top {
+    position: absolute; 
+    right: 0;      
+    color: rgb(244, 114, 14);
+    text-decoration: none;
+    font-size: 150px;
+    border: 5px dashed rgb(244, 114, 14);
+    border-radius: 75%;
+    margin-right: 25px;
+    
+  }
+  
+  
+.inleiding{
+    padding-top: 75px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+img:hover{
+    filter: drop-shadow(16px 16px 20px rgb(230, 168, 25));
+    cursor: cell;
+
+}
+
+.tekst{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.tekst:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.img-wrapper{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px
+}
